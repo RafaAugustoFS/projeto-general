@@ -16,7 +16,7 @@ const style = StyleSheet.create({
   header: {
     width: "100%",
     height: 120,
-    backgroundColor: "#FF0000",
+    backgroundColor: "#E4C087",
   },
   tituloHeader: {
     width: "100%",

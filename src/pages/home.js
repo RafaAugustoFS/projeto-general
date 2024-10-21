@@ -29,17 +29,26 @@ export default function Home() {
         buttonText='Nossa história'
         onPress={() => navigation.navigate('History')}
       />
+
+      <Card
+        title='Faq'
+        content='Tire suas dúvidas.'
+        buttonText='Tire suas dúvidas'
+        onPress={() => navigation.navigate('Faq')}
+      />
     </View>
   );
 }
 
 const style = StyleSheet.create({
     container: {
-        padding: 20
+        padding: 20,
+        backgroundColor: '#F6EFBD'
     },
     tituloContato:{
+        fontSize: 25,
         fontWeight: 'bold',
-        marginBottom: 20,
+        marginBottom: 10,
         textAlign:'center'
     },
     tituloInfo:{

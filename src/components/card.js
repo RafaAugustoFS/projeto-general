@@ -6,7 +6,7 @@ export default function Card(props) {
     <View style={style.card}>
         <Text style={style.cardTitle}>{props.title}</Text>
         <Text style={style.cardContent}>{props.content}</Text>
-        <Button title={props.buttonText} onPress={props.onPress} />
+        <Button style={style.cardButton} title={props.buttonText} onPress={props.onPress} />
     </View>
   )
 }
@@ -30,5 +30,9 @@ const style = StyleSheet.create({
     cardContent:{
         fontSize: 14,
         marginBottom: 10
+    },
+    cardButton:{
+        backgroundColor: '#FFFECB',
+        color: "yellow"
     }
 })
